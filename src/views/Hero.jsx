@@ -79,7 +79,7 @@ const Hero = () => {
       </div>
 
       <FadeIn delay={0.2} direction="down" padding fullWidth>
-        <h1 className="mt-16 text-center text-4xl leading-tight xs:text-6xl font-bold text-black max-w-[1050px]">
+        <h1 className="mt-16 text-center text-4xl leading-tight xs:text-5xl text-black max-w-[1050px]">
           {heroTitle}
         </h1>
       </FadeIn>
