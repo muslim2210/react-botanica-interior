@@ -1,6 +1,7 @@
 # React Website Interior | Botanica Interior
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Front End App with React npx create-react-app
 - CSS Style with TailwindCSS
 - framer motion
 - Responsive
