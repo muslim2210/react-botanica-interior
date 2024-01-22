@@ -19,7 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Preview
 
-![alt text](?raw=true)
+![alt text](https://github.com/muslim2210/react-botanica-interior/blob/master/public/preview-img.png?raw=true)
 
 
 ![alt text](https://github.com/muslim2210/react-botanica-interior/blob/master/public/localhost_3000_.png?raw=true)
