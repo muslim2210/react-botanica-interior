@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 // local imports
-import heroImage from "../assets/hero2.jpg";
+import heroImage from "../assets/hero-image.svg";
 import logo from "../assets/logo2-botanica.png";
 import cartIcon from "../assets/cart-icon.svg";
 import searchIcon from "../assets/search-icon.svg";
@@ -29,9 +29,11 @@ const Hero = () => {
       }}
     >
       <div className="relative w-full max-w-[1490] flex items-center justify-between pt-10 mx-auto px-10">
-        <div className="flex items-center gap-1">
-          <img src={logo} alt="" className="w-[105px] h-[105px]" />
-          <p className="text-black font-bold text-3xl lg:text-4xl">Botanica</p>
+        <div className="flex items-center gap-2">
+          <img src={logo} alt="" className="w-[60px] h-[60px]" />
+          <p className="text-white font-montserrat font-bold xl:text-3xl xs:text-xl">
+            Botanica
+          </p>
         </div>
         <ul className="hidden md:flex items-center gap-10 lg:gap-[68px]">
           <NavLink to="services">Services</NavLink>
@@ -77,12 +79,12 @@ const Hero = () => {
       </div>
 
       <FadeIn delay={0.2} direction="down" padding fullWidth>
-        <h1 className="mt-[70px] text-center text-5xl leading-tight xs:text-[64px] text-black max-w-[1050px]">
+        <h1 className="mt-16 text-center text-4xl leading-tight xs:text-6xl font-bold text-black max-w-[1050px]">
           {heroTitle}
         </h1>
       </FadeIn>
       <FadeIn delay={0.4} direction="down" padding fullWidth>
-        <h1 className="mt-[100px] text-center text-lg xs:text-xl text-black max-w-[500px]">
+        <h1 className="mt-8 text-center text-lg xs:text-xl text-black max-w-[500px]">
           {heroSubtitle}
         </h1>
       </FadeIn>
