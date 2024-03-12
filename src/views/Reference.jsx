@@ -9,7 +9,7 @@ import FadeIn from "../components/FadeIn";
 
 const Reference = () => {
   return (
-    <div id="reference" className="mb-[160px] px-10 max-w-[1490] mx-auto">
+    <div id="reference" className="mb-[160px] px-10 container mx-auto">
       <FadeIn delay={0.2} direction="down">
         <h1 className="text-5xl lg:text-[64px] font-medium text-fontBlack mb-6 text-center">
           {referenceTitle}
@@ -27,12 +27,12 @@ const Reference = () => {
             <img
               src={imageOne}
               alt=""
-              className="lg:w-[739px] lg:h-[549px] sm:w-[540px] sm:h-[430px] md:w-[560px] rounded-3xl"
+              className="lg:w-[739px] lg:h-[549px] sm:w-[540px] sm:h-[290px] md:w-[560px] rounded-3xl"
             />
             <img
               src={imageTwo}
               alt=""
-              className="lg:w-[734px] lg:h-[404px] sm:w-[540px] sm:h-[390px] md:w-[560px] rounded-3xl"
+              className="lg:w-[734px] lg:h-[404px] sm:w-[540px] sm:h-[290px] md:w-[560px] rounded-3xl"
             />
           </div>
         </FadeIn>
@@ -40,7 +40,7 @@ const Reference = () => {
           <img
             src={imageThree}
             alt=""
-            className="lg:w-[717px] lg:h-[995px] rounded-3xl sm:w-[540px] md:w-[560px] sm:h-[570px]"
+            className="lg:w-[717px] lg:h-[995px] rounded-3xl sm:w-[540px] md:w-[560px] sm:h-[610px]"
           />
         </FadeIn>
       </div>

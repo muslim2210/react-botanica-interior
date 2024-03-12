@@ -1,4 +1,5 @@
 // local imports
+import Nav from "./components/Nav";
 import Care from "./views/Care";
 import Footer from "./views/Footer";
 import Hero from "./views/Hero";
@@ -9,6 +10,7 @@ import Services from "./views/Services";
 function App() {
   return (
     <>
+      <Nav />
       <Hero />
       <Services />
       <Products />

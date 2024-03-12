@@ -8,7 +8,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-[linear-gradient(133deg,_#566270_0%,_#283444_100%)]">
-      <div className="max-w-[1490px] mx-auto px-10 py-[70px]">
+      <div className="container mx-auto px-10 py-[70px]">
         <div className="flex flex-col items-center xl:items-center xl:flex-row xl:justify-between gap-12">
           <div className="w-full xl:w-auto flex flex-col items-center xl:items-start">
             <h2 className="text-white text-center xl:text-start font-medium text-3xl lg:text-[32px]">

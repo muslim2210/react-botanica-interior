@@ -11,10 +11,11 @@ module.exports = {
         fontBlack: "#081323",
         fontGray: "#828282",
         overlay: "rgba(0, 0, 0, 0.30)",
+        "white-400": "rgba(255, 255, 255, 0.80)",
       },
       screens: {
         xs: "550px",
-        md: "850px",
+        md: "760px",
         xl: "1180px",
         "2xl": "1280px",
       },
