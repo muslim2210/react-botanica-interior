@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Front End App with React npx create-react-app
+
 - CSS Style with TailwindCSS
 - framer motion
 - Responsive
@@ -20,8 +21,6 @@ Front End App with React npx create-react-app
 
 ## Preview
 
-![alt text](https://github.com/muslim2210/react-botanica-interior/blob/master/public/preview-img.png?raw=true)
+![alt text](https://github.com/muslim2210/react-botanica-interior/blob/master/public/botanica-shop.png?raw=true)
 
-
-![alt text](https://github.com/muslim2210/react-botanica-interior/blob/master/public/localhost_3000_.png?raw=true)
-
+![alt text](https://github.com/muslim2210/react-botanica-interior/blob/master/public/preview.png?raw=true)
